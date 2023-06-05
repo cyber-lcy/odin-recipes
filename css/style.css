@@ -12,11 +12,33 @@ html {
     background-color: darkgray;
     color: #ffa500;
     font-size: 24px;
+    list-style-type: none;
 }
 
 .title {
-    color: #ff0000aa;
+    color: lightgoldenrodyellow;
     font-size: 36px;
     font-weight: bold;
     text-decoration: underline;
+    text-align: center;
+    border: 3px dotted black;
+    padding: 12px;
+}
+
+.card {
+    width: 600px;
+    margin: 0px auto;
+    padding: 8px;
+    background-color: lightsalmon;
+}
+
+.top3 {
+    text-align: center;
+    padding: 12px;
+    background-color: lightgoldenrodyellow;
+    border: 3px dotted black;
+}
+
+.top3heading {
+    font-size: 30px;
 }
